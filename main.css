@@ -1,0 +1,94 @@
+/*
+    Created by: Zachary Post
+    Use: Style sheet for ZV
+    11/11/2022
+
+*/
+
+body {
+	background-color: #3D3D3D;
+}
+
+p, h2,h3, ul, footer{
+	color: yellow;
+}
+
+footer {
+	float:right;
+}
+
+h1 {
+	color: #00FFFF;
+}
+
+h1 {
+	font-size:30px;
+	text-align: center;
+	background-color: #3D3D3D;
+}
+
+h2 {
+	font-size:45px;
+	text-align: center;
+	background-color: #3D3D3D;
+}
+
+h3 {
+	font-size:45px;
+	text-align: center;
+}
+
+#wrapper {
+	width: 100%;
+	margin: auto;
+	background-color: black;
+	box-shadow: 5px 5px 5px #1e1e1e;
+	border-radius: 15px;
+    padding: 20px;
+}
+
+.show {
+	background-image: url("images/machine.png");
+}
+
+.center {
+	margin: auto;
+	display: block;
+  }
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+header a {
+	font-size:20px;
+	text-align: center;
+	padding-left:40%;
+}
+
+@media (min-width: 960px) {
+	
+	#wrapper {
+		width: 960px;
+	}
+	header a {
+		flex-direction: row;
+		
+	}
+}
